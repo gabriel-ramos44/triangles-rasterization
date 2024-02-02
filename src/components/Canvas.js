@@ -192,7 +192,7 @@ function fillTriangle(triangle) {
           height={700}
           style={{ border: '1px solid black' }}
         ></canvas>
-        <button onClick={clearCanvas}>Limpar</button>
+        <button onClick={clearCanvas}>Clear</button>
       </div>
 
       <div className="triangles-list">
@@ -225,7 +225,7 @@ function fillTriangle(triangle) {
                         onChange={(e) => updateEdgeColor(triangleIndex, e.target.value)}
                       />
                     </div>
-                    <button onClick={() => deleteTriangle(triangleIndex)}>Excluir</button>
+                    <button onClick={() => deleteTriangle(triangleIndex)}>Delete</button>
                   </div>
                 )}
               </div>
