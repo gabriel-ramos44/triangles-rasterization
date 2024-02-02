@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/triangles-rasterization/static/css/main.76a36965.css",
+    "main.js": "/triangles-rasterization/static/js/main.3c0e2af6.js",
+    "static/js/787.e851d688.chunk.js": "/triangles-rasterization/static/js/787.e851d688.chunk.js",
+    "index.html": "/triangles-rasterization/index.html",
+    "main.76a36965.css.map": "/triangles-rasterization/static/css/main.76a36965.css.map",
+    "main.3c0e2af6.js.map": "/triangles-rasterization/static/js/main.3c0e2af6.js.map",
+    "787.e851d688.chunk.js.map": "/triangles-rasterization/static/js/787.e851d688.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76a36965.css",
+    "static/js/main.3c0e2af6.js"
+  ]
+}
