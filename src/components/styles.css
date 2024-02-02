@@ -1,0 +1,79 @@
+/* Estilos para o contêiner principal */
+.canvas-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  /* Estilos para o contêiner do canvas */
+  .canvas-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+  }
+
+  canvas {
+    cursor: crosshair;
+  }
+
+  /* Estilos para a lista de triângulos */
+  .triangles-list {
+    flex: 1;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilos para triângulos selecionados */
+  .selected {
+    background-color: #f0f0f0;
+    border: 1px solid #aaa;
+  }
+
+  /* Estilos para cabeçalho do triângulo */
+  .triangle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Estilos para opções de edição */
+  .triangle-options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  /* Estilos para inputs de cores */
+  input[type="color"] {
+    margin-top: 5px;
+  }
+
+  /* Estilos para botões */
+  button {
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+  /* Estilos para borda do canvas */
+  .canvas-border {
+    border: 1px solid #000;
+  }
